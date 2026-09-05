@@ -1,0 +1,1 @@
+python prepare_data.py --out E:\Python_Project\Color2Embed-main\data\train_data\ImageNet_train_lmdb --n_worker 20 --size 256 E:\\Python_Project\\Color2Embed-main\\data\\train

@@ -1,0 +1,78 @@
+# IDE and Python caches
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Dataset images and generated media
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.gif
+*.ppm
+*.pgm
+*.exr
+
+# Dataset directories (keep source code under data/)
+dataset/
+datasets/
+data/raw/
+data/processed/
+data/train/
+data/val/
+data/test/
+
+# Model weights, checkpoints, and experiment outputs
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.pb
+*.h5
+*.hdf5
+*.safetensors
+checkpoints/
+weights/
+pretrained/
+runs/
+outputs/
+results/
+logs/
+wandb/
+
+# Large data and archive formats
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.mat
+*.lmdb
+*.mdb
+*.csv
+*.tsv
+*.parquet
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+
+# OS files
+.DS_Store
+Thumbs.db
